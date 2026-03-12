@@ -2,7 +2,6 @@ name=input("Enter Your Name:")
 balance=float(input("Enter your account balance:"))
 withdraw=float(input("Enter your withdraw balance:"))
 
-
 if withdraw<=balance:
     balance=balance-withdraw
     print("Transaction in sucessfull")
